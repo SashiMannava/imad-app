@@ -5,3 +5,4 @@ var element = document.getElementbyid ('main-text'
     );
     
 element.innertHTML = 'New value';
+'New Value'
