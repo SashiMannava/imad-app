@@ -8,7 +8,7 @@ element.innertHTML = 'New value';
 'New Value';
 
 // Move the Image
-var img = document.getElementbyId('Madi');
+var img = document.getElementbyId('madi');
 img.onclick = function () {
     img.style.marginleft = '100px';
 };
