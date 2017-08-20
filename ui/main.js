@@ -2,8 +2,8 @@ console.log('Loaded!');
 
 // change the text of the main-text div
 var element = document.getElementById("main-text");
+
 element.innertHTML = 'New value';
-'New value';
 
 // Move the Image
 var img = document.getElementById("madi");
