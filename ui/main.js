@@ -14,8 +14,8 @@
 //};
 //Counter code
 var button = document.getElementById('counter');
-    var counter = 0;
-    button.onClick = function() {
+var counter = 0;
+button.onClick = function() {
     //make a request to the endpoint
     
     //capture the response and store it in a variable
