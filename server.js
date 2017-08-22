@@ -46,7 +46,7 @@ app.get('/submit-name / :name', function (req, res) {
   
   names.push(name);
   //JSON - Java Script Object Notation - converts java script objects into strings
-  res.send(JSON.stringify(names));
+  res.send(JSON.stringify(name));
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
